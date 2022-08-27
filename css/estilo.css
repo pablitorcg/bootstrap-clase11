@@ -2,3 +2,26 @@
     color: rgb(228, 11, 166);
 }
 
+.text-center{
+    margin-top: 10px;
+}
+.logo{
+    width: 200px;
+}
+.carro{
+    width: 60px;
+}
+
+
+@media only screen and (min-width:360px){
+    .card{
+        margin: 20px;
+    }
+    .carro{
+        margin: 100px;
+        margin-top: 30px;
+    }
+    .logo{
+        margin: 40px;
+    }
+}
